@@ -1,0 +1,106 @@
+body {
+    background: yellow;
+    margin-left: 45%;
+}
+
+.b {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.b1 {
+    background: rgb(103, 231, 103);
+    transition: width 3s;
+}
+
+.b1:hover {
+    width: 300px;
+    cursor: pointer;
+}
+
+.b2 {
+    background: rgb(103, 231, 103);
+    transition: width 3s, height 3s;
+}
+
+.b2:hover {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.b3 {
+    background: rgb(103, 231, 103);
+    transition: width 3s;
+}
+
+.b3:hover {
+    width: 300px;
+    cursor: pointer;
+}
+
+.b4 {
+    background: rgb(103, 231, 103);
+    transition: width 3s ease;
+}
+
+.b4:hover {
+    width: 300px;
+    transition: width 3s ease-in;
+    cursor: pointer;
+}
+
+.b5 {
+    background: rgb(103, 231, 103);
+    transition: width 3s ease-out;
+}
+
+.b5:hover {
+    width: 300px;
+    cursor: pointer;
+}
+
+.b6 {
+    background: rgb(103, 231, 103);
+    transition: width 3s ease-out;
+}
+
+.b6:hover {
+    width: 300px;
+    cursor: pointer;
+}
+
+.back {
+    background: aqua;
+    position: fixed;
+    bottom: 50px;
+    left: 200px;
+    cursor: pointer;
+    text-decoration: none;
+    zoom: 125%;
+    transition: transform 2s cubic-bezier(.17, .67, .83, .67) 0s;
+}
+
+.next {
+    background: aqua;
+    position: fixed;
+    bottom: 50px;
+    right: 200px;
+    cursor: pointer;
+    zoom: 125%;
+    transition: transform 2s cubic-bezier(.17, .67, .83, .67) 0s;
+}
+
+.back:hover {
+    transform: scale(1.5, 1.5)
+}
+
+.next:hover {
+    transform: scale(1.5, 1.5)
+}
+
+.bac,
+.nex {
+    text-decoration: none;
+}

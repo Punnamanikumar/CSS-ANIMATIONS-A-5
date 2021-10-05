@@ -1,0 +1,149 @@
+    body {
+        background-color: yellow;
+        zoom: 80%;
+    }
+    
+    h1 {
+        color: blue;
+        font-size: xxx-large;
+        text-decoration: underline;
+    }
+    
+    .b {
+        width: 100px;
+        height: 100px;
+        margin: 50px;
+    }
+    
+    .box {
+        display: flex;
+        margin-left: 34%;
+    }
+    
+    @keyframes n1 {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .box1 {
+        background: violet;
+        animation-name: b31;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        animation-direction: alternate;
+    }
+    
+    @keyframes b31 {
+        0% {
+            transform: skew(40deg);
+        }
+        100% {
+            transform: skew(-40deg);
+        }
+    }
+    
+    .box2 {
+        display: flex;
+        margin-left: 34%;
+        transition: transform 2s;
+    }
+    
+    .b2 {
+        background: rgb(163, 5, 163);
+        animation-name: n2;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+    
+    @keyframes n2 {
+        0% {
+            transform: skew(15deg, 15deg)
+        }
+        100% {
+            transform: skew(-15deg, -15deg)
+        }
+    }
+    
+    .box3 {
+        display: flex;
+        margin-left: 34%;
+    }
+    
+    .b3 {
+        background: violet;
+        animation-name: n1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+    
+    .box4 {
+        display: flex;
+        margin-left: 34%;
+    }
+    
+    .b4 {
+        background: rgb(2, 55, 85);
+        height: 70px;
+        animation-name: b4m;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        margin-top: 60px;
+    }
+    
+    @keyframes b4m {
+        100% {
+            transform: scaleY(1.5);
+        }
+    }
+    
+    .b41 {
+        background-color: saddlebrown;
+        animation-name: b41;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        width: 50px;
+    }
+    
+    @keyframes b41 {
+        100% {
+            transform: scaleX(2)
+        }
+    }
+    
+    .b42 {
+        background-color: green;
+        animation-name: b42;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    
+    @keyframes b42 {
+        100% {
+            transform: rotate(90deg);
+        }
+    }
+    
+    span {
+        position: fixed;
+        zoom: 150%;
+        bottom: 25px;
+        right: 360px;
+    }
+    
+    button {
+        border: 2px dashed rgb(255, 145, 0);
+        background: aqua;
+        cursor: pointer;
+        width: 80px;
+        height: 30px;
+        border-radius: 0 50% 0 50%;
+    }
+    
+    button:hower {
+        transform: scale(2);
+    }
